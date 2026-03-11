@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Rolling Vendor
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Rolling Vendor is a lightweight mobile application designed to help small street vendors track their daily business activities in a simple and practical way.
 
-## Get started
+The app was initially built for a nearby street vendor to solve a real problem: keeping track of daily sales, revenue, and waste without needing complicated accounting tools.
 
-1. Install dependencies
+## Purpose
 
-   ```bash
-   npm install
-   ```
+Many small vendors operate without digital tools. Sales, costs, and leftover inventory are often estimated rather than tracked.
 
-2. Start the app
+Rolling Vendor provides a simple system that allows vendors to record their daily sales and automatically calculate useful business metrics.
 
-   ```bash
-   npx expo start
-   ```
+## Features
 
-In the output, you'll find options to open the app in a
+- Log daily sales
+- Track total revenue
+- Calculate net profit and loss
+- Monitor average sales
+- Monitor average waste
+- Simple and lightweight interface designed for quick daily use
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How It Works
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Vendor records daily product sales.
+2. The app stores the sales data.
+3. The system calculates:
+   - Revenue
+   - Profit or loss
+   - Average sales
+   - Average waste
 
-## Get a fresh project
+All calculations are presented in a clear format so the vendor can easily understand their business performance.
 
-When you're ready, run:
+## Target Users
 
-```bash
-npm run reset-project
-```
+Rolling Vendor is designed primarily for:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Street vendors
+- Small food stalls
+- Small independent sellers
 
-## Learn more
+The goal is to provide a tool that is simple enough for anyone to use while still offering meaningful business insights.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Project Status
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project was built as a functional solution for a real local vendor. Development is currently complete.
 
-## Join the community
+## Tech Stack
 
-Join our community of developers creating universal apps.
+- React Native
+- Expo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Author
+
+Built by Shun as part of a practical software project focused on solving real-world problems for small businesses.
